@@ -1,0 +1,26 @@
+.mission_name_heading{
+    color: #483D8B;
+    font-weight: 700;
+  }
+
+  .mission_id {
+    font-weight: 700;
+  }
+
+  .mission_id_list {
+    color: #483D8B;
+  }
+
+  .white-bg{
+    background:#ffffff;
+}
+.textCenter {
+  text-align: center;
+}
+
+.developerName {
+  position: absolute;
+    bottom: 10px;
+    width: 50%;
+    left: 19%;
+}
