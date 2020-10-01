@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+const routing = (
+  <Router >
+    <div>
+      <Route path="/sapient_task_19-09-2020" component={App} />
+    </div>
+  </Router> 
+)
+ReactDOM.render(routing,
   document.getElementById('root')
 );
 

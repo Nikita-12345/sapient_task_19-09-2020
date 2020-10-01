@@ -49,7 +49,7 @@ export const filteredItemListByLaunch = (data) =>{
 
 export const filteredListByLaing = (data) =>{
     return async (dispatch)=>{
-     await axios.get('https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success'+(data))
+     await axios.get('https://api.spaceXdata.com/v3/launches?limit=100&launch_success=true&land_success='+(data))
         .then(res => {
             dispatch({
                 type : FILTERED_LIST_BY_LAING,

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LoadingSpinner = () => (
-  <div>
+  <div className="dataNotFound">
     <i className="fa fa-spinner fa-spin" /> Loading...
   </div>
 );

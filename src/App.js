@@ -9,10 +9,10 @@ function App() {
   return (
     <Provider store={store}>
       <div className="container-fluid bg-light">
-        <div className="spaceHeading">{'SpacEx Launch programs'}</div>
+        <header className="spaceHeading">{'SpacEx Launch programs'}</header>
         <div className="row d-flex">
-          <div className="col-md-3 col-sm-12"><Filter /></div>
-          <div className="col-md-9 col-sm-12"><ItemList /></div>
+          <div className="col-lg-3 col-md-12 col-sm-12"><Filter /></div>
+          <div className="col-lg-9 col-md-12 col-sm-12"><ItemList /></div>
         </div>
       </div>
     </Provider>
