@@ -35,7 +35,7 @@ function ItemList(props) {
                             <img className="bg-light" src={listItem?.links?.mission_patch} alt="icons" style={{ width: "100%" }}></img>
                             <div className = "mission_name_heading" >{listItem?.mission_name ? listItem.mission_name : 'N/A'}</div>
                             <div className = "mission_name_heading">{listItem?.flight_number ? listItem.flight_number : 'N/A'}</div>
-                            <div ><span className = "mission_id">{'Mission Ids:'}</span> {listItem ? listItem.mission_id.map((mission_id, index) => (
+                            <div ><span className = "mission_id">{'Mission Ids:'}</span> {listItem.mission_id ? listItem.mission_id.map((mission_id, index) => (
                                     <ul key={index}>
                                         <li className = "mission_id_list" >{mission_id}</li>
                                     </ul>
