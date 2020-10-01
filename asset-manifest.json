@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sapient_task_19-09-2020/static/css/main.c5a8745f.chunk.css",
-    "main.js": "/sapient_task_19-09-2020/static/js/main.8f4b1c68.chunk.js",
-    "main.js.map": "/sapient_task_19-09-2020/static/js/main.8f4b1c68.chunk.js.map",
+    "main.js": "/sapient_task_19-09-2020/static/js/main.d5bfa2b7.chunk.js",
+    "main.js.map": "/sapient_task_19-09-2020/static/js/main.d5bfa2b7.chunk.js.map",
     "runtime-main.js": "/sapient_task_19-09-2020/static/js/runtime-main.97fa2ce4.js",
     "runtime-main.js.map": "/sapient_task_19-09-2020/static/js/runtime-main.97fa2ce4.js.map",
     "static/css/2.2d63d0b4.chunk.css": "/sapient_task_19-09-2020/static/css/2.2d63d0b4.chunk.css",
     "static/js/2.b8207ef9.chunk.js": "/sapient_task_19-09-2020/static/js/2.b8207ef9.chunk.js",
     "static/js/2.b8207ef9.chunk.js.map": "/sapient_task_19-09-2020/static/js/2.b8207ef9.chunk.js.map",
     "index.html": "/sapient_task_19-09-2020/index.html",
-    "precache-manifest.7460a5b73ad3ba21482d58af67d62ada.js": "/sapient_task_19-09-2020/precache-manifest.7460a5b73ad3ba21482d58af67d62ada.js",
+    "precache-manifest.41a0ac42a47167ae8359b74558bc7d26.js": "/sapient_task_19-09-2020/precache-manifest.41a0ac42a47167ae8359b74558bc7d26.js",
     "service-worker.js": "/sapient_task_19-09-2020/service-worker.js",
     "static/css/2.2d63d0b4.chunk.css.map": "/sapient_task_19-09-2020/static/css/2.2d63d0b4.chunk.css.map",
     "static/css/main.c5a8745f.chunk.css.map": "/sapient_task_19-09-2020/static/css/main.c5a8745f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2d63d0b4.chunk.css",
     "static/js/2.b8207ef9.chunk.js",
     "static/css/main.c5a8745f.chunk.css",
-    "static/js/main.8f4b1c68.chunk.js"
+    "static/js/main.d5bfa2b7.chunk.js"
   ]
 }
