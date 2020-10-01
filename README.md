@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
+
+
+/*code explanation*/
+/* i have created component folder for conatining all the components inside it and  redux folder for creating store reducer and action. So that i can make structure simpler which is easy to reat and understand . For css i have created only one separate file for itemlist comp for othet comp i have written in global css only, just to show one local file connectivity and global as well. i am using css in this project but i could use less and scss file as well just by importing them into react, it's just am simple step "npm i --save-dev css-loader less less-loader style-loader" and "npm install node-sass --save". I have added some semantic elements as well.
+one thing which, i want to clear , i don't knoe earlier that when i click on any filter that should be shown in url so i implement routing later so this is not as per the expectation. this should be more proper and same with my reducer , earlier what i think i need to do filter indivisually , one at a single time but later when she came with the requirement that sequential filter has to be apply, then i again made some changes but i didn't make any more reducer which should be there , but i remain on the same structure and do some changes, at the time of technical discussion if you have any query then i'll answer all of them.
+i have written test cases only for one file, just to show how to write, app.test.js
+*/
