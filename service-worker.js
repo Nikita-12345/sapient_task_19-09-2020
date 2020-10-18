@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sapient_task_19-09-2020/precache-manifest.41a0ac42a47167ae8359b74558bc7d26.js"
+  "/sapient_task_19-09-2020/precache-manifest.cf6f7e698d9093c302367a4ce505a825.js"
 );
 
 self.addEventListener('message', (event) => {
