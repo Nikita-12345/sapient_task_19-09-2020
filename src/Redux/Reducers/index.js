@@ -22,11 +22,13 @@ export const filteredListReducer = (state = initialState, action) => {
 
         case FILTERED_LIST_BY_LAING :
             if(launchFilter === true && yearFilter === true){
-                state = action.payload.data.filter(data=> data.rocket.first_stage.cores[0].land_success === state[0].rocket.first_stage.cores[0].land_success);
+                state = action.payload.data.filter(data=> (data.rocket.first_stage.cores[0].land_success === state[0].rocket.first_stage.cores[0].land_success) && 
+                (data.launch_year === state[0].launch_year));
+                console.log('state', state);
                 return state;
             }
             else if(yearFilter === true){
-                state = action.payload.data.filter(data=> data.launch_year === state[0].launch_year);
+                state = action.payload.data.filter(data=> data.launch_year === state[0].launch_year && data.launch_year === state[0].launch_year);
                 return state;
             }
             else{
